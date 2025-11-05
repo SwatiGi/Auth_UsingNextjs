@@ -19,7 +19,7 @@ export default function ProductDetail({ id }) {
   if (!product) return <p className="p-4">Loading...</p>;
 
   return (
-    <div className="m-4 p-4 border border-pink-600 rounded-xl">
+    <div className=" p-4 border w-[500px] border-pink-600 mt-[100px] hover:shadow-md hover:shadow-pink-600 m-auto rounded-xl">
       <h1 className="text-2xl font-bold mb-4">Product Details</h1>
       <h2 className="text-xl font-semibold mb-2">{product.title}</h2>
       <img
